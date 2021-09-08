@@ -14,7 +14,7 @@ Deve cadastrar um personagem
 
     Status Should Be    200    ${response}
 
-Não deve casdatrar com o mesmo nome
+Não deve cadastrar com o mesmo nome
     [Tags]      dup
 
     ${personagem}         Factory Groot
